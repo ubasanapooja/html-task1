@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIT 040 Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>CIT 040 Application Form</h2>
+    <form>
+      <section>
+        <h3>Applicant's Information</h3>
+        <table>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lastName" required></td>
+          </tr>
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="firstName" required></td>
+          </tr>
+          <tr>
+            <td>Middle Name:</td>
+            <td><input type="text" name="middleName"></td>
+          </tr>
+          <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="dob" required></td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <h3>Address</h3>
+        <table>
+          <tr>
+            <td>Street Address:</td>
+            <td><input type="text" name="streetAddress" required></td>
+          </tr>
+          <tr>
+            <td>Suburb:</td>
+            <td><input type="text" name="suburb" required></td>
+          </tr>
+          <tr>
+            <td>State:</td>
+            <td>
+              <select name="state" required>
+                <option value="">Select State</option>
+                <option value="VIC">VIC</option>
+                <option value="NSW">NSW</option>
+                <option value="QLD">QLD</option>
+                <option value="SA">SA</option>
+                <option value="WA">WA</option>
+                <option value="TAS">TAS</option>
+                <option value="NT">NT</option>
+                <option value="ACT">ACT</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Postcode:</td>
+            <td><input type="text" name="postcode" required></td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <h3>Contact Details</h3>
+        <table>
+          <tr>
+            <td>Phone:</td>
+            <td><input type="tel" name="phone" required></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" required></td>
+          </tr>
+        </table>
+      </section>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
